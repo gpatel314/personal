@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+    </style>
+    <title>Gavin Patel - Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <img src="./images/profile.jpg" alt="Profile Photo" width="500" length="600">
+            <h1>Gavin Patel</h1>
+            <p style="font-family: 'Courier New', Courier, monospace; color: brown">Student</p>
+            <p>I am currently a junior at Iowa State. I study Computer Engineering,
+                and originally I am from Park Ridge, Illinois. </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="./images/project1.png" alt="Project 1" width="350" length="450">
+                <h3>Project 1</h3>
+                <p>The first project is an automated payload tester that I helped implement
+                    during my internship over the summer. It's job was to be run everytime someone
+                    pushed new code to the github respository in order to verify that the new code is correctly
+                    compatible with
+                    the microcontroller.
+                </p>
+            </div>
+            <div class="project">
+                <img src="./images/project2.jpg" alt="Project 2" width="200" length="250">
+                <h3>Project 2</h3>
+                <p>CprE 288 is our introduction to embedded software class, and really where I began to find my
+                    enjoyment
+                    for the disciple as a whole. As part of our final project we were tasked with creating a way to
+                    remotely control a Roomba utilizing a TIVA microcontroller. Through the use of websockets, we were
+                    able to sucessfully remotely control the roomba, as well as create a GUI for the IR and ultrasound
+                    sensors. I was able to take my understanding of embedded and register programming, and apply it to
+                    complete this project.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>My email is gpatel@iastate.edu</p>
+        </div>
+    </section>
+
+    <footer>
+        <footer>
+            <p>&copy; 2023 Gavin Patel</p>
+        </footer>
+
+    </footer>
+
+</body>
+
+</html>
